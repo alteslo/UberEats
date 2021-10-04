@@ -1,0 +1,41 @@
+@import url("normalize.css");
+
+
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: black;
+}
+
+.wraper {
+    max-width: 962px;
+    min-width: 320px;
+    margin: 0 auto
+}
+
+.header_wraper {
+    background-color: rgb(44, 184, 189);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heder_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.enter_button {
+    padding: 10px 26px;
+}
