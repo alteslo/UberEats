@@ -12,14 +12,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.css">
     <link rel="stylesheet" href="css\style.css">
 </head>
 
 <body>
+
+    /*----------------Header-----------------------------------------*/
+
     <div class="header">
         <div class="wraper">
-            <div class="row">
+            <div class="row center">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <div class="header_wraper">
                         <div class="header_logo">
@@ -28,8 +31,10 @@
                             </a>
                         </div>
                         <div class="heder_items">
-                            <button class="enter_button">Войти</button>
-                            <div class="header_basket">
+                            <div class="header_button">
+                                <button class="enter_button">Войти</button>
+                            </div>
+                            <div class="header_basket hidden-xs">
                                 <a href="" class="header_basket_link">
                                     <img src="/images/basket.svg" alt="Basket" class="header_basket_pic">
                                 </a>
@@ -41,9 +46,23 @@
         </div>
     </div>
 
-    <div class="main">
+    /*----------------Navigation-----------------------------------------*/
 
+    <div class="wraper">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="search_wraper">
+                    <nav class="search">
+                        <form action="" class="search_form">
+                            <input type="search" name="q" placeholder="Поиск по ресторанам и кухням"
+                                class="search_field">
+                        </form>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </div>
+
 
     <div class="footer"></div>
 
