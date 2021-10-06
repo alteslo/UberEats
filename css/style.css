@@ -12,6 +12,7 @@ body {
     font-family: 'Roboto', sans-serif;;
     font-style: normal;
     font-size: 16px;
+    line-height: 1.2;
     font-weight: normal;
     color: black;
 }
@@ -87,6 +88,72 @@ body {
     border-bottom: 1px solid #979797;
     outline: none;
     color: #626262;
-    padding: 0px;
+    margin-left: 5px;
+    transition: all 0.3s;
 }
 
+.search_field:hover {
+    border: none;
+    height: 24px;
+    width: 100%;
+    border-bottom: 1px solid #303030;
+    outline: none;
+    color: #1f1f1f;
+    margin-left: 5px;
+    box-shadow: 3px 8px 12px -6px #e6e4e4;
+}
+
+/*--------------------Card------------------------------------*/
+
+.main_title{
+    margin-top: 56px;
+    padding-left: 5px;
+}
+
+.main_title h1{
+    font-weight: normal;
+    font-size: 22px;
+    color: #1D1D1D;
+    ;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color:#f0f0f0;
+}
+
+.card_container {
+    padding: 2px 16px;
+}
+
+.card_restaurent {
+    line-height: 24px;
+    color: #1D1D1D;
+}
+
+.card_kitchen {
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+}
+
+.card_time{
+    line-height: 21px;
+    font-size: 13px;
+    color: #1D1D1D;
+}
+
+.rest_link{
+    text-decoration: none;
+}
