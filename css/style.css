@@ -213,3 +213,53 @@ body {
 .social_icons {
     margin-top: 17px;
 }
+.social_icons a {
+    text-decoration: none;
+}
+
+.footer_info a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.footer_info a:hover {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s;
+    font-size: 15px;
+}
+
+.footer_downloads {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.dlink img {
+    height: 40px;
+    width: auto;
+    margin: 10px;
+}
+
+/*--------------------Button UP------------------------------------*/
+
+#toTop {
+    position:fixed;
+    bottom:10px; /* отступ кнопки от нижнего края страницы*/
+    right:10px;
+    cursor:pointer;
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+
+#toTop:hover {
+    position:fixed;
+    bottom:10px; /* отступ кнопки от нижнего края страницы*/
+    right:10px;
+    cursor:pointer;
+    opacity: 1;
+}
+
