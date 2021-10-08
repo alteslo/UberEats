@@ -1,2 +1,9 @@
 @import url("/css/style.css");
 
+.jumbotron_container {
+    background: url('/images/pushkin/jumbotron.svg') center;
+    background-size: cover;
+    margin-top: 72px;
+    width: 100%;
+    height: 364px;
+}
